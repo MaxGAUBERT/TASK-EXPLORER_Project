@@ -1,0 +1,178 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.search-bar {
+  font-size: 2.2em;
+  text-align: left;
+  border-color: #00080a;
+  padding-left: 10px;
+  border-radius: 2%;
+}
+
+.add-button {
+  font-size: 1.2em;
+  text-align: left;
+  border-color: #fc2e2e;
+  padding-left: 10px;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 3px;
+  margin-top: 10px;
+}
+
+.add-button:hover {
+  cursor: pointer;
+}
+
+.remove-button {
+  font-size: large;
+  border-color: red;
+  margin-left: 15px;
+  border-width: 3px;
+  font-style: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.remove-button:hover {
+  background-color: #ff0404;
+  cursor: pointer;
+}
+
+.App{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80%;
+} 
+
+.title {
+  font-size: 3.2em;
+  color: #ffffff;
+  text-align: center;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.title:hover {
+  color: #ffffff;
+  text-shadow: #778176 3px 2px;
+
+}
+
+
+
+.search-button {
+  font-size: large;
+  text-align: center;
+  border-color: red;
+  border-radius: 5%;
+  border-width: 3px;
+  margin-top: 30px;
+}
+
+.rem-btn {
+  font-size: large;
+  margin-left: 20px;
+
+}
+
+.rem-btn:hover {
+  background-color: #ff0b0b;
+  cursor: pointer;
+}
+
+.groups {
+  display: block;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+.define-task {
+  font-size: large;
+  margin-top: 15px;
+
+}
+
+.confirm-button {
+  font-size: large;
+  border-color: red;
+  margin-left: 15px;
+  border-width: 3px;
+  font-style: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 10vh; /* par exemple, pour centrer verticalement sur toute la hauteur de la page */
+}
+
+.glow-button {
+  font-size: 15x;
+  padding: 10px 20px;
+  color: rgb(77, 74, 74);
+  background-color: #969a9e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: text-shadow 0.4s ease;
+}
+
+.glow-button:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 8), 0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+.task-board {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 10vh; /* par exemple, pour centrer verticalement sur toute la hauteur de la page */
+}
+
+
+
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
