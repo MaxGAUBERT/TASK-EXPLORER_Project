@@ -2,7 +2,21 @@
 
 ########################################################################################################
 
-To use this app:
+To install this project:
+
+1) Go to visual studio code.
+
+2) In VSCode, right click in the left part and click on "Add folder to workspace".
+
+3) This folder must match of the project. So find the folder of the project and import it.
+
+4) It's good ! Now read the notice below.
+
+
+
+########################################################################################################
+
+To use this project:
 
 1) Just open a web browser and type in the top (for the search bar): http://localhost:5173/
 
